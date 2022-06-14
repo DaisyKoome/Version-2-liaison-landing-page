@@ -1,0 +1,155 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #EDEFF0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+    /* margin-left: 20%; */
+    margin-right: auto;
+}
+
+
+img.checkmark {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+img.mobile-checkmark {
+    display: none;
+}
+
+img.mobile-avatar {
+    display: none;
+}
+
+.thanks-copy {
+    margin-top: 10%;
+}
+
+p.sub {
+    font-family: 'Roboto', sans-serif;
+    color: #67666A;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+p.redirect {
+    color: #67666A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+p.thanks {
+    font-family: 'Roboto', sans-serif;
+    font-size: 53px;
+    line-height: 5px;
+    color: #00A0E0;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 900px){
+
+    html {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        background-color: #EDEFF0;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 45%;
+        /* margin-left: 20%; */
+        margin-right: auto;
+    }
+    
+    img.checkmark {
+        display: none;
+    }
+    
+    .thanks-copy {
+        margin-top: 0pxs;
+    }
+    
+    p.sub {
+        font-family: 'Roboto', sans-serif;
+        color: #67666A;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: -5px;
+    }
+    
+    p.redirect {
+        color: #67666A;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        line-height: 10px;
+        margin-top: -10px
+    }
+    
+    p.thanks {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        line-height: 5px;
+        color: #00A0E0;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .thanks-avatar {
+        display: none;
+    }
+
+    .avatar-row {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .thanks-content {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: -30px; */
+    }
+
+    img.mobile-checkmark {
+        display: flex;
+        margin-left: 45%;
+        /* margin-top: 20px; */
+    }
+
+    img.mobile-avatar {
+        display: block;
+    }
+
+    .thanks-copy {
+        margin-top: 0px;
+    }
+
+}    

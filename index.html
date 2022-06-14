@@ -35,6 +35,8 @@
  <section class="wrapper">
 
         <section class="banner-elements">
+            <img src="images/banner-resized.png" class="banner-deskie mySlides">
+            <img src="images/banner-resized.png" class="banner-deskie mySlides">
             <div class="items">
                 <img src="images/logo.png" alt="" class="b-logo">
                 <ul class="menu-1">
@@ -55,6 +57,9 @@
                 <button class="get-started">GET STARTED</button>
                 
             </div>
+
+            <button class="icon-cheveron-left" id="slide1" onclick="plusDivs(-1)"></button>
+            <button class="icon-cheveron-right" id="slide2" onclick="plusDivs(1)"></button>
         </section>
         <section class="light-blue-mid">
             <div class="banner-blue-rec">
@@ -176,7 +181,28 @@
             </footer>
             
         </section>
-    </section>    
+    </section> 
+    
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+
     </body>
 </head>
 <body>

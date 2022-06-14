@@ -198,8 +198,14 @@ table.mobile-white-header {
 }
 
 .banner-elements {
-    background-image: url(../images/banner-resized.png);
+    /* background-image: url(../images/banner-resized.png); */
     height: 712px;
+}
+
+img.banner-deskie {
+    position: absolute;
+    z-index: -1;
+    display: block;
 }
 
 .b-logo {
@@ -706,6 +712,44 @@ section.light-blue-mid {
     /* width: 1365px; */
 }
 
+button#slide1 {
+    margin-top: 220px;
+    position: absolute;
+    margin-left: 40px;
+    font-size: 25px;
+    color: #ffffff;
+    border: none;
+    background-color: transparent;
+}
+
+button#slide1:hover {
+    margin-top: 220px;
+    position: absolute;
+    margin-left: 40px;
+    font-size: 25px;
+    color: #00A0E0;
+    border: none;
+    background-color: transparent;
+}
+
+button#slide2 {
+    margin-top: 220px;
+    margin-left: 1180px;
+    font-size: 25px;
+    color: #ffffff;
+    border: none;
+    background-color: transparent;
+}
+
+button#slide2:hover {
+    margin-top: 220px;
+    margin-left: 1180px;
+    font-size: 25px;
+    color: #00A0E0;
+    border: none;
+    background-color: transparent;
+}
+
 
 /* 
 
@@ -714,6 +758,15 @@ Mobile version
 */
 
 @media only screen and (max-width: 900px){
+
+    button#slide1 {
+        display: none;
+    }
+    
+    button#slide2 {
+        display: none;
+    }
+    
 
     option.risk-option:hover {
         background-color: #0055B8;
@@ -1474,6 +1527,10 @@ Mobile version
         font-size: 14px;
         font-weight: normal;
         line-height: 19px;
+    }
+
+    img.banner-deskie {
+        direction: none;
     }
 
 }
