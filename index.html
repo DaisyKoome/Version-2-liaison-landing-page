@@ -5,29 +5,35 @@
     <title>Liaison Group Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <body>
-        <section>
-            <div class="top-blue-bar">
-                <div class="contacts-span">
-                    <span class="contacts-1">TALK TO US:</span>
-                    <span class="contacts-2">(254)703 071 000 | info@liaisongroup.net | Liaison House, State House Avenue</span>
-                    <span class="mobile-contacts">TALK TO US: (254) 703 071 000</span>
-                </div>
+    <body >
+        
+    <div class="top-blue-bar">
+        <div class="contacts-span">
+            <span class="contacts-1">TALK TO US:</span>
+            <span class="contacts-2">(254)703 071 000 | info@liaisongroup.net | Liaison House, State House Avenue</span>
+            <span class="mobile-contacts">TALK TO US: (254) 703 071 000</span>
+        </div>
 
-                <form class="search">
-                    <input type="search" name="" id="" placeholder="SEARCH" class="search-input">
-                    <span class="icon-search"></span>
-                </form>
-            </div>
+        <form class="search">
+            <input type="search" name="" id="" placeholder="SEARCH" class="search-input">
+            <span class="icon-search"></span>
+        </form>
+    </div>
+    <section>
+        <table class="mobile-white-header">
+            <tr class="header-row">
+                <td class="header-logo"> <img src="images/Liaison_Anniversary-Logo png.svg" alt="" class="mobile-logo"> </td>          
+            
+                <td class="header-search"> <span class="icon-search" id="mobile-search"></span> </td>
 
-            <table class="mobile-white-header">
-                <tr class="header-row">
-                   <td class="header-union"> <span class="icon-Union-1" id=""></span> </td>
-                <td class="header-logo"> <img src="images/Liaison_Anniversary-Logo png.svg" alt="" class="mobile-logo"> </td>
-            <td class="header-search"> <span class="icon-search" id="mobile-search"></span> </td>
-                </tr>
-            </table>
-        </section>
+                <td class="header-union"> <span class="icon-Union-1" id=""></span> </td>
+            </tr>
+        </table>
+    </section>
+
+
+ <section class="wrapper">
+
         <section class="banner-elements">
             <div class="items">
                 <img src="images/logo.png" alt="" class="b-logo">
@@ -87,12 +93,12 @@
 
                     </div>
                     <div class="submit-div">
-                        <select name="product" id="product" form="form" class="second-row product">
+                        <select onfocus='this.size=10;' onblur='this.size=0;' onchange='this.size=1; this.blur();' name="product" id="product" form="form" class="second-row product">
                             <option value="product">Product:</option>
-                            <option value="product">Risk & Insurance</option>
-                            <option value="product">Healthcare</option>
-                            <option value="product">Pensions</option>
-                            <option value="product">Investments</option>
+                            <option value="product" class="risk-option">Risk & Insurance</option>
+                            <option value="product" class="health-option">Healthcare</option>
+                            <option value="product" class="pension-option">Pensions</option>
+                            <option value="product" class="invest-option">Investments</option>
                         </select>                        
                         <button type="submit" class="submit">Submit</button>
                     </div>
@@ -127,7 +133,9 @@
             </div>            
         </section>
         <section class="f-sec">
+            <div class="hr">
             <hr>
+            </div>
             <footer class="footer">
                 <div class="contacts">
                 <p class="update">Stay up to date with LIAISON GROUP</p>
@@ -168,6 +176,7 @@
             </footer>
             
         </section>
+    </section>    
     </body>
 </head>
 <body>
