@@ -159,7 +159,7 @@ p.weekdays {
 }
 
 button.get-started {
-    margin-left: -490px;
+    margin-left: 285px;
     display: flex;
     float: left;
     position: absolute;
@@ -198,14 +198,8 @@ table.mobile-white-header {
 }
 
 .banner-elements {
-    /* background-image: url(../images/banner-resized.png); */
+    background-image: url(https://www.liaisongroup.net/wp-content/uploads/2022/06/banner-resized.png);
     height: 712px;
-}
-
-img.banner-deskie {
-    position: absolute;
-    z-index: -1;
-    display: block;
 }
 
 .b-logo {
@@ -411,6 +405,8 @@ button.submit {
     justify-content: space-evenly;
 }
 
+
+
 input {
     padding-left: 19px;
     padding-top: 19px;
@@ -567,7 +563,7 @@ p.update {
 hr {
     margin-top: 150px;
     position: absolute;
-    width: 1220px;
+    width: 1150px;
     margin-left: 20px;
     border-color: #5DC2FF;
     outline: none;
@@ -712,44 +708,6 @@ section.light-blue-mid {
     /* width: 1365px; */
 }
 
-button#slide1 {
-    margin-top: 220px;
-    position: absolute;
-    margin-left: 40px;
-    font-size: 25px;
-    color: #ffffff;
-    border: none;
-    background-color: transparent;
-}
-
-button#slide1:hover {
-    margin-top: 220px;
-    position: absolute;
-    margin-left: 40px;
-    font-size: 25px;
-    color: #00A0E0;
-    border: none;
-    background-color: transparent;
-}
-
-button#slide2 {
-    margin-top: 220px;
-    margin-left: 1180px;
-    font-size: 25px;
-    color: #ffffff;
-    border: none;
-    background-color: transparent;
-}
-
-button#slide2:hover {
-    margin-top: 220px;
-    margin-left: 1180px;
-    font-size: 25px;
-    color: #00A0E0;
-    border: none;
-    background-color: transparent;
-}
-
 
 /* 
 
@@ -758,15 +716,6 @@ Mobile version
 */
 
 @media only screen and (max-width: 900px){
-
-    button#slide1 {
-        display: none;
-    }
-    
-    button#slide2 {
-        display: none;
-    }
-    
 
     option.risk-option:hover {
         background-color: #0055B8;
@@ -1529,13 +1478,4 @@ Mobile version
         line-height: 19px;
     }
 
-    img.banner-deskie {
-        direction: none;
-    }
-
 }
-
-
-
-
-

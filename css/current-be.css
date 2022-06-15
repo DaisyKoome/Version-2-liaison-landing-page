@@ -159,7 +159,7 @@ p.weekdays {
 }
 
 button.get-started {
-    margin-left: -490px;
+    margin-left: 285px;
     display: flex;
     float: left;
     position: absolute;
@@ -198,14 +198,8 @@ table.mobile-white-header {
 }
 
 .banner-elements {
-    /* background-image: url(../images/banner-resized.png); */
+    background-image: url(https://www.liaisongroup.net/wp-content/uploads/2022/06/banner-resized.png);
     height: 712px;
-}
-
-img.banner-deskie {
-    position: absolute;
-    z-index: -1;
-    display: block;
 }
 
 .b-logo {
@@ -274,7 +268,7 @@ li.contact {
 
 .banner-blue-rec {
     background-color: #00A0E0;
-    height: 365px;
+    height: 360px;
     width: 1100px;
     border-radius: 24px;
     margin-left: auto;
@@ -411,10 +405,208 @@ button.submit {
     justify-content: space-evenly;
 }
 
+
+
 input {
     padding-left: 19px;
     padding-top: 19px;
     padding-bottom: 19px;
+}
+
+.forminator-ui{
+	display:unset !important;
+}
+
+.forminator-row {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forminator-field.forminator-has_error {
+    width: 502px;
+    margin-left: 30px !important;
+    /* margin-top: 30px !important; */
+    /* margin-right: 50px; */
+    display: inline-grid;
+    /* position: absolute; */
+    /* margin: -60px; */
+}
+
+.forminator-field {
+    width: 502px !important;
+    /* height: 44px; */
+    border-radius: 8px !important;
+    /* width: 502px; */
+    /* outline-color: #ffffff; */
+    /* background-color: #ffffff; */
+    border-width: thin;
+    border-style: none;
+    margin-top: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #67666A;
+    margin-left: 3px;
+}
+
+input#forminator-field-email-1 {
+
+    height: 44px;
+    border-radius: 8px;
+    width: 502px;
+    outline-color: #ffffff;
+    background-color: #ffffff !important;
+    border-width: thin;
+    border-style: none;
+    margin-right: 28px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+input#forminator-field-text-1 {
+    height: 44px;
+    border-radius: 8px;
+    width: 502px;
+    outline-color: #ffffff;
+    background-color: #ffffff !important;
+    border-width: thin;
+    border-style: none;
+    margin-right: 12px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 12px;
+    color: #67666A;
+}
+
+input#forminator-field-phone-1 {
+    height: 44px;
+    border-radius: 8px;
+    width: 502px;
+    outline-color: #ffffff;
+    background-color: #ffffff !important;
+    border-width: thin;
+    border-style: none;
+    /* margin-left: 66px; */
+    margin-top: 10px;
+    /* margin-right: 66px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+div#select-1 {
+    height: 44px;
+    border-radius: 8px;
+    width: 502px;
+    outline-color: #ffffff;
+    /* background-color: #ffffff; */
+    border-width: thin;
+    border-style: none;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    /* padding-left: 12px; */
+    /* padding-top: 12px; */
+    /* padding-bottom: 12px; */
+    color: #67666A;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+input#forminator-field-name-1 {
+	height: 44px;
+    border-radius: 8px;
+    width: 502px;
+    outline-color: #ffffff;
+    background-color: #ffffff !important;
+    border-width: thin;
+    border-style: none;
+    margin-left: 28px;
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+select#forminator-form-987__field--select-1 {
+    height: 44px !important;
+    border-radius: 8px;
+    width: 502px !important;
+    outline-color: #ffffff;
+    background-color: #ffffff;
+    border-width: thin !important;
+    border-style: none !important;
+    margin-top: 50px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    color: #67666A;
+    margin-left: 3px !important;
+}
+
+.forminator-ui#forminator-module-987.forminator-design--default .forminator-select2 + .forminator-select .selection .select2-selection--single[role="combobox"] {
+    border-color: transparent !important;
+    background-color: white !important;
+    border-radius: 8px !important;
+}
+
+.footer input#forminator-field-email-1 {
+    height: 44px;
+    border-radius: 8px;
+    width: 317px;
+    outline-color: #ffffff;
+    background-color: #ffffff !important;
+    border-width: thin;
+    border-style: none;
+    margin-right: 28px;
+    font-family: 'Roboto', sans-serif !important;
+    margin-top: 6px;
+}
+
+.footer button.forminator-button.forminator-button-submit {
+    width: 317px !important;
+    height: 42px !important;
+    border-radius: 8px !important;
+    font-family: 'Montserrat';
+    font-size: 15px !important;
+    background-color: #01C18B !important;
+    color: #FFFFFF !important;
+    border-width: inherit!important;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px;
+    margin-top: -25px !important;
+    margin-left: 0px !important;
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    position: absolute !important;
+}
+
+button.forminator-button.forminator-button-submit {
+    width: 502px !important;
+    height: 42px !important;
+    border-radius: 8px !important;
+    font-family: 'Montserrat';
+    font-size: 15px !important;
+    background-color: #AB024F !important;
+    color: #FFFFFF !important;
+    border-width: inherit!important;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px;
+	margin-top: -75px !important;
+    margin-left: 565px !important;
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    position: absolute !important;
 }
 
 .half-cont1 {
@@ -567,7 +759,7 @@ p.update {
 hr {
     margin-top: 150px;
     position: absolute;
-    width: 1220px;
+    width: 1150px;
     margin-left: 20px;
     border-color: #5DC2FF;
     outline: none;
@@ -712,44 +904,6 @@ section.light-blue-mid {
     /* width: 1365px; */
 }
 
-button#slide1 {
-    margin-top: 220px;
-    position: absolute;
-    margin-left: 40px;
-    font-size: 25px;
-    color: #ffffff;
-    border: none;
-    background-color: transparent;
-}
-
-button#slide1:hover {
-    margin-top: 220px;
-    position: absolute;
-    margin-left: 40px;
-    font-size: 25px;
-    color: #00A0E0;
-    border: none;
-    background-color: transparent;
-}
-
-button#slide2 {
-    margin-top: 220px;
-    margin-left: 1180px;
-    font-size: 25px;
-    color: #ffffff;
-    border: none;
-    background-color: transparent;
-}
-
-button#slide2:hover {
-    margin-top: 220px;
-    margin-left: 1180px;
-    font-size: 25px;
-    color: #00A0E0;
-    border: none;
-    background-color: transparent;
-}
-
 
 /* 
 
@@ -758,15 +912,6 @@ Mobile version
 */
 
 @media only screen and (max-width: 900px){
-
-    button#slide1 {
-        display: none;
-    }
-    
-    button#slide2 {
-        display: none;
-    }
-    
 
     option.risk-option:hover {
         background-color: #0055B8;
@@ -1528,14 +1673,213 @@ Mobile version
         font-weight: normal;
         line-height: 19px;
     }
+	
+	    input#forminator-field-name-1 {
+        height: 34px;
+        border-radius: 6px;
+        width: 255px;
+        outline-color: #ffffff;
+        background-color: #ffffff;
+        border-width: thin;
+        border-style: none;
+        margin-left: auto;
+        margin-top: 60px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 9px;
+        position: absolute;
+        margin-right: auto;
+        line-height: 12px;
+    }
+    
+    input#forminator-field-email-1 {
+        height: 34px;
+        border-radius: 6px;
+        width: 255px;
+        outline-color: #ffffff;
+        background-color: #ffffff;
+        border-width: thin;
+        border-style: none;
+        margin-left: auto;
+        margin-top: 190px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 9px;
+        position: absolute;
+        margin-right: auto;
+        line-height: 12px;
+    }
+    
+    input#forminator-field-text-1 {
+        height: 34px;
+        border-radius: 6px;
+        width: 255px;
+        outline-color: #ffffff;
+        background-color: #ffffff;
+        border-width: thin;
+        border-style: none;
+        margin-left: auto;
+        margin-top: 320px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 9px;
+        position: absolute;
+        margin-right: auto;
+        line-height: 12px;
+    }
+    
+    select#location {
+        height: 34px;
+        border-radius: 6px;
+        width: 255px;
+        outline-color: #ffffff;
+        background-color: #ffffff;
+        border-width: thin;
+        border-style: none;
+        margin-left: auto;
+        margin-top: 450px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 9px;
+        position: absolute;
+        margin-right: auto;
+        color: #67666A;
+        line-height: 12px;
+    }
+    
+    select#forminator-form-987__field--select-1 {
+        height: 34px;
+        border-radius: 6px;
+        width: 255px;
+        outline-color: #ffffff;
+        background-color: #ffffff;
+        border-width: thin;
+        border-style: none;
+        margin-left: auto;
+        margin-top: -120px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 9px;
+        position: absolute;
+        margin-right: auto;
+        line-height: 12px;
+    }
+    
+    .forminator-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    button.forminator-button.forminator-button-submit {
+        width: 126px;
+        height: 26px;
+        border-radius: 6px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        background-color: #AB024F;
+        color: white;
+        border-width: inherit;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: auto; */
+        /* margin-bottom: auto; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        line-height: 14px;
+    }
 
-    img.banner-deskie {
-        direction: none;
+    
+    input {
+        padding-left: 14px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .forminator-field.forminator-has_error {
+        width: 255px;
+        margin-left: 30px !important;
+        /* margin-top: 30px !important; */
+        /* margin-right: 50px; */
+        display: inline-grid;
+        /* position: absolute; */
+        /* margin: -60px; */
+    }
+
+    .forminator-field {
+        width: 255px !important;
+        /* height: 44px; */
+        border-radius: 8px !important;
+        /* width: 502px; */
+        /* outline-color: #ffffff; */
+        /* background-color: #ffffff; */
+        border-width: thin;
+        border-style: none;
+        margin-top: 27px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: #67666A;
+        margin-left: 3px;
+    }
+
+    div#select-1 {
+        height: 44px;
+        border-radius: 8px;
+        width: 502px;
+        outline-color: #ffffff;
+        /* background-color: #ffffff; */
+        border-width: thin;
+        border-style: none;
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        /* padding-left: 12px; */
+        /* padding-top: 12px; */
+        /* padding-bottom: 12px; */
+        color: #67666A;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .forminator-ui#forminator-module-987.forminator-design--default .forminator-select2 + .forminator-select .selection .select2-selection--single[role="combobox"] {
+        border-color: transparent !important;
+        background-color: white !important;
+        border-radius: 8px !important;
+    }
+
+    .footer input#forminator-field-email-1 {
+        height: 44px;
+        border-radius: 8px;
+        width: 317px;
+        outline-color: #ffffff;
+        background-color: #ffffff !important;
+        border-width: thin;
+        border-style: none;
+        margin-right: 28px;
+        font-family: 'Roboto', sans-serif !important;
+        margin-top: 6px;
+    }
+    
+    .footer button.forminator-button.forminator-button-submit {
+        width: 317px !important;
+        height: 42px !important;
+        border-radius: 8px !important;
+        font-family: 'Montserrat';
+        font-size: 15px !important;
+        background-color: #01C18B !important;
+        color: #FFFFFF !important;
+        border-width: inherit!important;
+        padding-left: 12px !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px;
+        margin-top: -25px !important;
+        margin-left: 0px !important;
+        display: flex !important;
+        align-content: center;
+        justify-content: center;
+        position: absolute !important;
     }
 
 }
-
-
-
-
-
