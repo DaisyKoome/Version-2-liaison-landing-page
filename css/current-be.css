@@ -199,6 +199,10 @@ table.mobile-white-header {
 
 .banner-elements {
     background-image: url(https://www.liaisongroup.net/wp-content/uploads/2022/06/banner-resized.png);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     height: 712px;
 }
 
@@ -493,7 +497,7 @@ input#forminator-field-phone-1 {
     border-width: thin;
     border-style: none;
     /* margin-left: 66px; */
-    margin-top: 10px;
+    margin-top: 7px;
     /* margin-right: 66px; */
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -757,9 +761,9 @@ p.update {
 }
 
 hr {
-    margin-top: 150px;
+    margin-top: 155px;
     position: absolute;
-    width: 1150px;
+    width: 1222px;
     margin-left: 20px;
     border-color: #5DC2FF;
     outline: none;
@@ -842,6 +846,7 @@ p.contacts-p {
     display: inline-grid;
     position: relative;
     margin-bottom: 25px;
+    margin-right: 150px;
 }
 
 a.footer-a-t {
@@ -971,7 +976,7 @@ Mobile version
     }
     
     p.weekdays {
-        margin-top: 40px !important;
+        margin-top: 290px !important;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: bold;
@@ -1015,7 +1020,7 @@ Mobile version
     }
     
     .banner-elements {
-        background-image: url(../images/mobile\ banner.png);
+        background-image: url(https://www.liaisongroup.net/wp-content/uploads/2022/06/mobile-banner-1.png);
         height: 240px;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -1451,17 +1456,17 @@ Mobile version
     
     span.socials.icon-twitter {
         margin-left: auto;
-        margin-right: 70px;
+        margin-right: 70px !important;
         display: flex;
         position: absolute;
         text-align: center;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 330px !important;
         font-size: 20px;
     }
     
     span.socials.icon-facebook {
-        margin-left: 50px;
+        margin-left: 50px !important;
         margin-right: 30px;
         /* display: flex; */
         /* position: absolute; */
@@ -1471,12 +1476,12 @@ Mobile version
         position: absolute;
         text-align: center;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 330px !important;
         font-size: 20px;
     }
     
     span.socials.icon-instagram {
-        margin-left: 100px;
+        margin-left: 100px !important;
         /* display: flex; */
         /* position: absolute; */
         /* margin-left: 180px; */
@@ -1485,13 +1490,13 @@ Mobile version
         position: absolute;
         text-align: center;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 330px !important;
         font-size: 20px;
     }
 
 
     span.rights {
-        margin-top: 120px;
+        margin-top: 370px !important;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: normal;
@@ -1586,27 +1591,36 @@ Mobile version
         font-weight: 500;
         line-height: 11px;
         margin-bottom: 5px;
+        margin-top: 65px !important;
+        position: absolute;
+        margin-left: 90px !important;
     }
     
     p.contacts-p {
-        margin-top: 50px;
+        margin-top: 115px !important;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: normal;
         line-height: 19px;
+        position: absolute;
+        margin-left: 80px !important;
     }
     
     p.contacts-phone {
-        margin-top: -20px;
+        margin-top: 160px !important;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: normal;
         line-height: 19px;
+        position: absolute;
+        margin-left: 60px !important;
     }
 
     .footer-links {
         line-height: 25px;
-        margin-top: 40px;
+        margin-top: 210px !important;
+        position: absolute !important;
+        margin-left: 120px !important;
     }
     
     a.footer-a {
@@ -1628,7 +1642,7 @@ Mobile version
     a.footer-a-about {
         display: flex;
         justify-content: center;
-        margin-top: -45px;
+        margin-top: -45px !important;
         color: #ffffff;
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
@@ -1640,7 +1654,7 @@ Mobile version
     a.footer-a-terms {
         display: flex;
         justify-content: center;
-        margin-top: -25px;
+        margin-top: -5px !important;
         color: #ffffff;
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
@@ -1655,7 +1669,7 @@ Mobile version
         font-size: 14px;
         line-height: 19px;
         font-weight: normal;
-        margin-top: -12px;       
+        margin-top: 240px !important;    
     }
     
     p.f-emails-2 {
@@ -1664,7 +1678,7 @@ Mobile version
         font-size: 14px;
         line-height: 19px;
         font-weight: normal;
-        margin-top: 6px;
+        margin-top: 260px !important;
     }
 
     p.contacts-p-email {
@@ -1672,23 +1686,26 @@ Mobile version
         font-size: 14px;
         font-weight: normal;
         line-height: 19px;
+        position: absolute;
+        margin-left: 90px !important;
+        margin-top: 150px !important;
     }
 	
-	    input#forminator-field-name-1 {
-        height: 34px;
-        border-radius: 6px;
-        width: 255px;
-        outline-color: #ffffff;
-        background-color: #ffffff;
-        border-width: thin;
-        border-style: none;
-        margin-left: auto;
-        margin-top: 60px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 9px;
-        position: absolute;
-        margin-right: auto;
-        line-height: 12px;
+	input#forminator-field-name-1 {
+	height: 34px;
+    border-radius: 6px;
+    width: 255px;
+    outline-color: #ffffff;
+    background-color: #ffffff;
+    border-width: thin;
+    border-style: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    position: absolute;
+    margin-right: auto;
+    line-height: 12px;
     }
     
     input#forminator-field-email-1 {
@@ -1699,8 +1716,8 @@ Mobile version
         background-color: #ffffff;
         border-width: thin;
         border-style: none;
-        margin-left: auto;
-        margin-top: 190px;
+        margin-left: 40px;
+        margin-top: 75px;
         font-family: 'Roboto', sans-serif;
         font-size: 9px;
         position: absolute;
@@ -1709,15 +1726,15 @@ Mobile version
     }
     
     input#forminator-field-text-1 {
-        height: 34px;
+        height: 34px !important;
         border-radius: 6px;
         width: 255px;
         outline-color: #ffffff;
         background-color: #ffffff;
         border-width: thin;
         border-style: none;
-        margin-left: auto;
-        margin-top: 320px;
+        margin-left: 40px;
+        margin-top: 190px !important;
         font-family: 'Roboto', sans-serif;
         font-size: 9px;
         position: absolute;
@@ -1725,6 +1742,22 @@ Mobile version
         line-height: 12px;
     }
     
+	input#forminator-field-phone-1 {
+        height: 44px;
+        border-radius: 8px;
+        width: 255px;
+        outline-color: #ffffff;
+        background-color: #ffffff !important;
+        border-width: thin;
+        border-style: none;
+        margin-left: 40px;
+        margin-top: 130px !important;
+        /* margin-right: 66px; */
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        position: absolute;
+}
+	
     select#location {
         height: 34px;
         border-radius: 6px;
@@ -1744,48 +1777,48 @@ Mobile version
     }
     
     select#forminator-form-987__field--select-1 {
-        height: 34px;
-        border-radius: 6px;
-        width: 255px;
-        outline-color: #ffffff;
-        background-color: #ffffff;
-        border-width: thin;
-        border-style: none;
-        margin-left: auto;
-        margin-top: -120px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 9px;
-        position: absolute;
-        margin-right: auto;
-        line-height: 12px;
+    height: 44px !important;
+    border-radius: 8px;
+    width: 502px !important;
+    outline-color: #ffffff;
+    background-color: #ffffff;
+    border-width: thin !important;
+    border-style: none !important;
+    margin-top: 50px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    color: #67666A;
+    margin-left: 3px !important;
     }
     
     .forminator-row {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    display: block !important;
+    align-items: unset;
+    justify-content: unset;
     }
     
     
     button.forminator-button.forminator-button-submit {
-        width: 126px;
-        height: 26px;
-        border-radius: 6px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 10px;
-        background-color: #AB024F;
-        color: white;
-        border-width: inherit;
-        margin-top: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        /* margin-top: auto; */
-        /* margin-bottom: auto; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
-        line-height: 14px;
+    width: 255px !important;
+    height: 42px !important;
+    border-radius: 8px !important;
+    font-family: 'Montserrat';
+    font-size: 15px !important;
+    background-color: #AB024F !important;
+    color: #FFFFFF !important;
+    border-width: inherit!important;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px;
+    margin-top: 315px !important;
+    margin-left: 40px !important;
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    position: absolute !important;
     }
 
     
@@ -1825,61 +1858,70 @@ Mobile version
     }
 
     div#select-1 {
-        height: 44px;
+        height: 30px !important;
         border-radius: 8px;
         width: 502px;
         outline-color: #ffffff;
         /* background-color: #ffffff; */
         border-width: thin;
         border-style: none;
-        margin-top: 10px;
+        margin-top: 250px;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         /* padding-left: 12px; */
         /* padding-top: 12px; */
         /* padding-bottom: 12px; */
         color: #67666A;
-        margin-left: 30px;
+        margin-left: 40px;
         margin-right: 30px;
+        position: absolute;
     }
 
     .forminator-ui#forminator-module-987.forminator-design--default .forminator-select2 + .forminator-select .selection .select2-selection--single[role="combobox"] {
-        border-color: transparent !important;
-        background-color: white !important;
-        border-radius: 8px !important;
+    height: 34px;
+    border-color: transparent !important;
+    background-color: white !important;
+    border-radius: 8px !important;
     }
 
     .footer input#forminator-field-email-1 {
-        height: 44px;
-        border-radius: 8px;
-        width: 317px;
-        outline-color: #ffffff;
-        background-color: #ffffff !important;
-        border-width: thin;
-        border-style: none;
-        margin-right: 28px;
+        height: 30px !important;
+        border-radius: 8px !important;
+        width: 208px !important;
+        background-color: #00A0E0 !important;
+        border-width: 1px;
+        border-color: #ffffff !important;
+        outline-color: #ffffff !important;
+        box-sizing: inherit !important;
+        border-style: solid;
         font-family: 'Roboto', sans-serif !important;
-        margin-top: 6px;
+        font-size: 8px !important;
+        color: #ffffff !important;
+        margin-top: -10px !important;
+        margin-bottom: 0px;
+        line-height: 11px;
+        margin-left: 75px !important;
     }
+
+    .footer input#forminator-field-email-1::placeholder {
+        color: #ffffff !important;
+    }        
     
     .footer button.forminator-button.forminator-button-submit {
-        width: 317px !important;
-        height: 42px !important;
+        width: 208px !important;
+        height: 30px !important;
         border-radius: 8px !important;
-        font-family: 'Montserrat';
-        font-size: 15px !important;
+        border-color: #01C18B !important;
+        border-style: solid !important;
         background-color: #01C18B !important;
-        color: #FFFFFF !important;
-        border-width: inherit!important;
-        padding-left: 12px !important;
-        padding-top: 12px !important;
-        padding-bottom: 12px;
-        margin-top: -25px !important;
-        margin-left: 0px !important;
-        display: flex !important;
-        align-content: center;
-        justify-content: center;
-        position: absolute !important;
+        margin-bottom: 12px !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 8px !important;
+        color: #ffffff !important;
+        font-weight: bold !important;
+        line-height: 11px !important;
+        margin-top: 40px !important;
+        margin-left: 75px !important;
     }
 
 }
